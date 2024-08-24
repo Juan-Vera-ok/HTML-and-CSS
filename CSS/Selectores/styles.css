@@ -1,0 +1,16 @@
+/*Por elemento*/
+li{
+    color: blue;
+}
+/*Por clase*/
+.opcional{
+    color: green;
+}
+/*Por ID*/
+#obligatorio{
+    color: red
+}
+
+h1{
+    color: blue;
+}

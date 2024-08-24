@@ -1,0 +1,22 @@
+.formulario{
+    background-color: red;
+padding : 30px;
+margin: 10px;
+border: 1px solid black;
+border-radius: 50px;
+}
+
+.formulario_input{
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid black;
+    margin: 10px;
+    width: 90%;
+}
+
+.formulario_submit{
+    background-color: blue;
+    color: white;
+    letter-spacing: 2px;
+    width: 50%;
+}

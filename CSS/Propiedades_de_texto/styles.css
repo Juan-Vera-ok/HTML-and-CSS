@@ -1,0 +1,23 @@
+p{
+    color:red;
+    font-family:Noto Sans JP;
+    font-size: 10px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    text-decoration: overline line-through underline;
+    line-height: 3;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+button{
+    letter-spacing: 5px;
+}
+h1{
+    text-align: start;
+}
+
+a{
+    text-decoration: none;
+    color:blue;
+}
