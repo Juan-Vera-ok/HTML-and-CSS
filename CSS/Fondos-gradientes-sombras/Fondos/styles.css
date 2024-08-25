@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    background-color: #004;
+}
+
+.box{
+    margin: 0;
+    width: 400px;
+    height: 400px;
+   
+    background-image: url("https://lh5.googleusercontent.com/aYB32f63ZAfRu-QCTPW48EAVypEV6pXn0viqo8uC8ncLoKJTtg9_-vbOma4uoMZ6YbRv3z_DJuhm3vPppr9rFaw=w16383");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed ;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.opaco{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}

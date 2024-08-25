@@ -1,0 +1,13 @@
+.box{
+    padding:20px 50px;
+    background-color: hsl(210, 40%, 85%);
+    margin: auto;
+    text-align: center;
+    color: hsl(210, 40%, 45%);
+    border-left:5px solid hsl(210, 40%, 45%);
+    font-weight: bold;
+}
+
+body{
+    background-color: hsl(210, 40%, 10%);
+}

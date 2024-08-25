@@ -1,0 +1,18 @@
+body{
+    background-color: #f00;
+    margin: 0;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background:linear-gradient(#0009,transparent);
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+}
