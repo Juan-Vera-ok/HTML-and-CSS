@@ -1,0 +1,34 @@
+body{
+    margin:0;
+    background-color: #aaa;
+}
+
+.container{
+    border: 3px solid black;
+    margin:20px 50px;
+    background-color: #fff;
+    position: relative;
+}
+
+.box{
+    background-color: #ca6;
+    width: 100px;
+    height: 100px;
+   
+}
+
+.box--blue{
+    background-color: #37d;
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+
+.box:first-child{
+    background-color: #e53;
+    
+}

@@ -1,0 +1,98 @@
+body{
+    margin:0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+background-color: #0592;
+}
+
+
+/*-----HEADER SECTION-----*/
+div,head,nav,ul,h1,h2,p,img{
+    box-sizing: border-box;
+}
+.header{
+    height: 100vh;
+    box-sizing: border-box;
+    background-image:url("http://127.0.0.1:5500/CSS/CSS-intermedio/Flexbox/Ejercicio layout/Imagen1.png");
+    display: flex;
+}
+.header__overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #0597;
+    position: absolute;
+    
+}
+
+.header__item-container{
+    position: relative;
+    z-index: 10;
+    margin: auto;
+    text-align: center;
+    max-width: 700px;
+}
+
+
+.header__item-container img{
+    min-width: 100px;
+    max-width: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin: 5px;
+}
+
+h1{
+    margin:0
+}
+
+/*---- NAVBAR SECTION ----*/
+
+nav{
+    background-color: #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:6px;
+    position: sticky;
+    top:0
+}
+
+.nav__ul{
+    margin:0;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0;
+}
+
+.nav__item{
+    list-style: none;
+}
+
+.nav__link{
+    color:#08f;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 0;
+    transition: background-color 0.3s;
+}
+
+.nav__link:hover{
+    background-color: #08f3;
+    border-radius: 20px;
+}
+
+.nav__logo{
+    width: 50px;
+    margin: 5px;
+}
+
+.nav__logo-container, .nav__ul-container{
+    flex-grow: 1;
+    text-align: center;
+}
+
+main{
+    margin: auto;
+    max-width: 700px;
+}

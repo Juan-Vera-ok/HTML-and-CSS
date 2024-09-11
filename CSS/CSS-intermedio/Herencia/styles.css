@@ -1,0 +1,18 @@
+body{
+    color: blueviolet;
+    font-family:fantasy
+}
+
+div{
+    
+    width: 50%;
+    color: red;
+}
+h1{
+    color:initial;
+    width: inherit;
+}
+
+input{
+    font-family: inherit;
+}

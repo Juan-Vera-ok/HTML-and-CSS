@@ -1,0 +1,48 @@
+body{
+    font-family: monospace;
+    margin:0;
+}
+
+.nav{
+    background-color: #48e;
+}
+
+.nav__list{
+    margin:0;
+    text-align: center;
+}
+
+.nav__item{
+    display: inline-block;
+    
+}
+
+.nav__link{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    background-color: #48e;
+    font-size: 200%;box-sizing: border-box;
+}
+
+.link--button{
+    background-color: #fff;
+    color: #48e;
+    padding: 6px 12px;
+    border-radius: 5px;
+    margin-left: 60px;
+    
+}
+
+.nav__link:hover{
+    background-color: #59e;
+    
+}
+
+.link--button:hover{
+    
+    border: 1px solid #fff;
+    background-color:transparent;
+    color: #fff;
+}

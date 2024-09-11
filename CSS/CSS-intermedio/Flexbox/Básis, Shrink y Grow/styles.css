@@ -1,0 +1,52 @@
+body{
+    margin:0;
+    font-family: sans-serif;
+    background-color:#ccc;
+    color:#fff
+}
+div,body{
+    box-sizing: border-box;
+}
+.flexbox{
+    display: flex;
+   
+    
+    margin:5px;
+    flex-flow: row wrap;
+    border: 2px solid black;
+  
+    background-color: #fff;
+    height: 100px;
+}
+
+.flex-item{
+    /* centrar texto con widh y height
+    display: flex;
+    align-items: center;
+    justify-content: center;*/
+    background-color:#911;
+    font-size: 40px;
+    
+    text-align: center;
+
+    direction: rtl;
+    
+    margin: auto;
+
+   
+}
+
+.flex-item:first-child{
+    background-color: #f77;
+
+}
+
+.flex-item{
+    width: 150px;
+    
+}
+
+.flex-item:last-child{
+    background-color: #000;
+    
+}

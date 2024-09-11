@@ -1,0 +1,53 @@
+body{
+    background-color: #00f4;
+}
+
+/*Seleccionando por atributo*/
+img[src="Imagen1.png"]{
+    width: 50%;
+}
+
+/*Seleccionando por terminación del nombre*/
+img[src$=png]{
+    width: 50%;
+}
+
+/*Seleccionando por inicio del nombre*/
+img[src^=happy]{
+    width: 50%;
+}
+
+/*Selector descendiente*/
+ul li{
+    color: red;
+}
+/*Selector descendiente*/
+ul strong{
+    color: blue;
+}
+/*Hijo directo*/
+ul > strong{
+    color: green;
+}
+
+ul>li>strong>h2{
+    background-color:red
+}
+
+/*Selector de hermano adyacente*/
+h1+p{
+    color: blue;
+}
+
+h1+p+ul{
+    background-color: green;
+}
+
+/*Selector de hermanos generales*/
+h1~p{
+    color: red;
+}
+
+h1,p{
+    color: blueviolet;
+}

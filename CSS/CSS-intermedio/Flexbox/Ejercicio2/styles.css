@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding: 0;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body{
+    background: linear-gradient(to right, #f78, #000);
+}
+
+.navbar {
+    position: sticky; /* Fija la barra en la parte superior */
+    
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    margin-top:50px;
+    z-index: 1000; /* Asegura que la barra esté encima del contenido */
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    align-content: space-evenly;
+    gap: 20px;
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.logo{
+    width: 100px;
+}
+
+.box-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width:1000px;
+    height: 1500px
+}
+
+
+.box{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid #f00;
+    opacity: 0.5;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Añade transición para animar el tamaño y la sombra */
+}
+
+div>img{
+    background-color: #e005;
+    object-fit: cover;
+    filter:drop-shadow(0 3px 50px #00f);
+}
+
+.box .title, .box .price{
+    padding: 10px;
+    color:#666;
+    font-size: 18px;
+    text-align: center;
+}
+
+.div__profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:50px;
+}
+
+.profile{
+    width: 10%;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.box:hover {
+    transform: scale(1.2); /* Aumenta el tamaño al pasar el ratón */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Añade una sombra para dar la impresión de profundidad */
+    z-index: 1; /* Asegura que la caja en hover esté encima de las demás */
+    opacity: 1;
+}
+
+.root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
