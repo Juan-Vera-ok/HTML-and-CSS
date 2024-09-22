@@ -134,6 +134,7 @@ main{
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: #000;
     height: 30%;
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Añade transición para animar el tamaño y la sombra */
     opacity: 0.5;
@@ -144,4 +145,14 @@ main{
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Añade una sombra para dar la impresión de profundidad */
     z-index: 1; /* Asegura que la caja en hover esté encima de las demás */
     opacity: 1;
+}
+
+
+a:hover{
+    transition: ease 0.5s;
+}
+
+a:hover{
+    background-color: #555;
+    border-radius: 50px;
 }
