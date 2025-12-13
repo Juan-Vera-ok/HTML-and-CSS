@@ -15,8 +15,9 @@ body{
     padding: 20px 10px;
     box-shadow: -50px 0 80px 20px #000f;
     border-radius: 20px;
-    background:linear-gradient(to right,#0002,#00f);
-
+background: #ffffff;
+background: linear-gradient(90deg,rgba(255, 255, 255, 1) 0%, rgba(9, 9, 121, 1) 100%, rgba(0, 212, 255, 1) 100%);
+  
 }
 
 .card-title{
@@ -38,6 +39,6 @@ body{
 
 .card-image{
     width: 50%;
-    filter: drop-shadow( 0 0 5px #00ff);
+    filter: drop-shadow( 0 0 22px #00ff);
 
 }
